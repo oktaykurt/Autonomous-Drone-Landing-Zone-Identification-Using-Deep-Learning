@@ -1,5 +1,8 @@
 # Autonomous Drone Landing Zone Identification Using Deep Learning
 
+![a21c3e8f-2877-4774-b3c6-ddf477752687](https://github.com/user-attachments/assets/92351aef-c80a-4f2e-96fc-b0ce699d4882)
+
+
 ## Project Description
 
 This project focuses on identifying optimal landing zones for drones in real-time using semantic segmentation of aerial images. The goal is to distinguish safe landing areas (like grass, paved areas, dirt, gravel) from obstacles (like trees, buildings, water bodies, vehicles) to enhance the safety and autonomy of drone operations, especially in dynamic or unknown environments. The primary model used is a U-Net architecture with a pre-trained EfficientNetB0 backbone, which demonstrated superior performance in segmenting images compared to an FCN model with a ResNet50 backbone and a non-pretrained U-Net. The model predicts a segmentation mask for an input aerial image, and a post-processing step identifies the largest safe area furthest from detected obstacles as the optimal landing zone.
