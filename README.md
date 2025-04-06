@@ -97,7 +97,7 @@ The provided code includes several Python scripts likely intended to be run sequ
 * It outperformed an FCN-ResNet50 model and a non-pretrained U-Net[cite: 3, 4, 64, 65].
 * Training logs (`model_training_csv.log`) and plots (`metrics_plot.png`) provide detailed performance metrics over epochs.
 
-## Future Work (Based on Report)
+## Future Work
 
 * Integrate the model into real-time drone navigation systems.
 * Expand the dataset with more diverse aerial images.
